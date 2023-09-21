@@ -5,6 +5,8 @@ using UnityEngine;
 public class test : MonoBehaviour
 {
     public AddImage addImage;
+
+    
     // Start is called before the first frame update
     void Start()
     {
