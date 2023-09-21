@@ -24,7 +24,7 @@ public class MainManager : MonoBehaviour
     {
         if (MainManager.Instance != null)
         {
-            MainManager.Instance.Weight = "default value";
+            MainManager.Instance.Weight = "";
         }
     }
 }
