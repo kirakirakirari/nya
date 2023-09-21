@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class Home : MonoBehaviour
 {
-
-    public void OnClick()
+    public void OnClickStartButton()
     {
-        Debug.Log("押された!");  // ログを出力
+        SceneManager.LoadScene("Home");
     }
 }
+
